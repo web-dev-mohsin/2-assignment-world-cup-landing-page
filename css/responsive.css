@@ -12,10 +12,12 @@
     .sliding-iteam{
         display: flex;
         align-items: center;
-        flex-direction: column-reverse;  
+        flex-direction: column-reverse;
+         
     }
     .flex-box{
          width: auto;
+         padding: 3px 30px;
          
     }
     .sliding-image img{
@@ -23,16 +25,17 @@
     }
     .details{
         padding: 10px;
+        
     }
     .details .tittle h1{
         font-size: 40px; 
         text-align: center; 
-        padding: 30px;
+        padding: 3px 30px;
    }
    .details-info p{
        font-size: 16px;
        text-align: center;
-       padding: 30px;
+       padding: 3px 30px;
    }
    .watch-live-link a{
       
