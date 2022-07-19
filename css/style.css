@@ -1,0 +1,47 @@
+/* generale  style*/
+
+body{
+    max-width: 1388px;
+    margin: 0;
+    padding: 0;
+}
+
+.sliding-section{
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+}
+.sliding-iteam{
+    display: flex;
+    align-items: center; 
+}
+.flex-box{
+    width: 50%;
+    padding: 80px; 
+}
+.sliding-image img{
+    width: 100%;
+}
+.details{
+    color: white; 
+    
+}
+.details .tittle h1{
+     font-size: 60px; 
+     margin-bottom: 20px;
+}
+.details-info p{
+    font-size: 16px;
+}
+.watch-live-link a{
+    padding: 10px 30px;
+    background-image: linear-gradient(rgb(216, 3, 49),rgb(253, 40, 51));
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.watch-live-link p{
+    margin-top: 30px;
+}
