@@ -50,3 +50,65 @@ body{
     margin-left: 5px;
 
 }
+
+/* first section end */
+
+/* second section start */
+.main-section{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;  
+}
+
+.main-section-items{
+    display: flex; 
+}
+.schedule-blog{
+    width: 30%;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    height: 300px;
+     
+  
+}
+.schedule-blog div{
+    margin: 20px 40px;
+    background-color: white;
+    padding: 5px ;
+    border-radius: 10px; 
+}
+.schedule-blog a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.schedule-blog .blog{
+    background-color: rgb(253, 40, 51);
+    color: rgb(255, 255, 255);
+}
+.all-match{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.indivisual-match{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px  2px 5px 2px gray;
+}
+.live-match{
+    width: 70%; 
+    border-radius: 10px;
+    color: rgb(49, 49, 49);
+}
+.live-match img{
+    width: 100%;
+}
+.schedule-blog, .live-match{
+    margin: 10px 15px;
+}
+
+.match-info{
+    padding: 20px;
+}
