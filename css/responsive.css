@@ -76,10 +76,13 @@
     }
     .schedule-blog{ 
         background: none; 
-        height: 277px;   
+        height: 277px;  
+        
     }
     .schedule-blog div{
         border: 1px solid rgb(175, 175, 175);
+        
+    padding: 10px 20px;
     }
 
     .all-match{
@@ -171,7 +174,7 @@
     }
     .schedule-blog div{ 
         border-radius: 10px;  
-        width: 160px;
+        width: 200px;
         border: 1px solid rgb(184, 184, 184);
  
     }

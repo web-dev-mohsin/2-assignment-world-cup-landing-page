@@ -74,13 +74,14 @@ body{
     width: 30%;
     background-color: rgb(10, 10, 10);
     border-radius: 10px;
-    display: flex; 
-    flex-direction: column;
-    gap: 5px; 
-    height: 267px;   
+    display: grid; 
+    grid-template-columns: repeat(1,1fr);
+    align-content: space-between;
+     
+    height: 276px;   
+    padding: 10px 20px;
 }
-.schedule-blog div{
-    margin: 7px 40px;
+.schedule-blog div{ 
     background-color: white;
     padding: 5px ;
     border-radius: 10px; 
