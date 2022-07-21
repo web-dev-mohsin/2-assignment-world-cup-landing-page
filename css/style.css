@@ -43,7 +43,12 @@ body{
     font-weight: 600;
     text-decoration: none;
     border-radius: 5px;
+    transition: 0.3s;
 }
+.watch-live-link a:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
 .watch-live-link p{
     margin-top: 30px;
 }
@@ -76,16 +81,19 @@ body{
     border-radius: 10px;
     display: grid; 
     grid-template-columns: repeat(1,1fr);
-    align-content: space-between;
-     
+    align-content: space-between; 
     height: 276px;   
     padding: 10px 20px;
 }
 .schedule-blog div{ 
     background-color: white;
+    transition: 0.3s;
     padding: 5px ;
     border-radius: 10px; 
      
+}
+.schedule-blog div:hover{
+    background-color: #3e8e41;
 }
 .schedule-blog a{
     text-decoration: none;
@@ -104,8 +112,15 @@ body{
 }
 .indivisual-match{
     width: 30%;
+    border: 2px;
     border-radius: 10px;
     box-shadow: 0px  2px 5px 2px gray;
+    
+   
+}
+.indivisual-match:hover{
+    
+  
 }
 .live-match{
     width: 70%; 
