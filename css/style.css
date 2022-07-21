@@ -47,6 +47,7 @@ body{
 }
 .watch-live-link a:hover {
     background-color: #3e8e41;
+    padding: 12px 35px;
     color: white;
   }
 .watch-live-link p{
@@ -88,7 +89,7 @@ body{
 .schedule-blog div{ 
     background-color: white;
     transition: 0.3s;
-    padding: 5px ;
+    padding: 5px;
     border-radius: 10px; 
      
 }
@@ -115,11 +116,12 @@ body{
     border: 2px;
     border-radius: 10px;
     box-shadow: 0px  2px 5px 2px gray;
+    transition: 0.5s;
     
    
 }
 .indivisual-match:hover{
-    
+    background-color: rgb(255, 210, 151);
   
 }
 .live-match{
